@@ -3,6 +3,7 @@
 #include "display.h"
 #include "file_ops.h"
 #include "colours.h"
+#include "compiler.h"
 #include <iostream>
 using namespace std;
 
@@ -27,7 +28,7 @@ void handle_command(
     }
     else if (command == "help")
     {
-        cout << BOLD << GREY << "try--> add, delete, view, save, load, clear, undo, redo, rename, remove, exit." << RESET << endl;
+        cout << BOLD << GREY << "try--> add, delete, view, save, load, clear, undo, redo, build, run, rename, remove, exit." << RESET << endl;
     }
     else if (command == "undo")
     {
@@ -82,6 +83,19 @@ void handle_command(
         cin >> file_name;
         delete_file(storage, file_name);
     }
+    else if (command == "build")
+    {
+        string file_name;
+        cin >> file_name;
+        build_file(file_name);
+    }
+    else if (command == "run")
+    {
+        string file_name;
+        cin >> file_name;
+        run_file(file_name);
+    }
+
     else
     {
         cout << RED << "[ERROR] Invalid command: " << command << RESET << endl;

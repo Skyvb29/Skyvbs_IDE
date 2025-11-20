@@ -17,16 +17,16 @@ int main()
 
     cout << endl
          << BOLD << BLUE << "\t\t\t---- SKYVB'S IDE ----" << RESET << endl;
-    cout << YELLOW << "Commands: add, delete [i], view, save, load, clear, undo, redo, "
+    cout << YELLOW << "Commands: add, delete [i], view, save, load, clear, undo, redo, build, run, "
          << "insert [i], logs, rename, remove, help, exit" << RESET << endl
          << "--------------------------------------------------------------" << endl;
 
     while (true)
     {
         cout << GREY << ">> " << RESET;
-        
 
         cin >> command;
+    
         command_logs.push_back(command);
 
         if (command == "exit" || command == "EXIT")
