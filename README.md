@@ -5,9 +5,9 @@ Hey, I’m Skyvb
 I like building lightweight tools, experimenting with IoT systems, and creating projects that feel simple, fast, and useful.
 Right now I’m deep into embedded development, system design, and improving my C++ fundamentals by building real projects that solve actual problems.
 
->>What I’m Working On?
+>>**What I’m Working On?**
 
-Skyvb’s IDE (My CLI-Based Text Editor)
+**Skyvb’s IDE** (My CLI-Based Text Editor)
 A minimal C++ command-line editor with:
  ✔ Undo/Redo using stacks
  ✔ File operations (save/load/rename/delete)
@@ -19,7 +19,7 @@ A minimal C++ command-line editor with:
  
 Goal: Turn it into a full IoT-focused CLI environment for ESP32 + sensors.
 
->>Tech Stack & Interests
+>>**Tech Stack & Interests**
 
 → Languages  :
  C++, C, Python, Arduino C, 
@@ -52,15 +52,18 @@ Predicting sensor behavior & calibration for MQ sensors.
 <img width="1586" height="817" alt="image" src="https://github.com/user-attachments/assets/6750fb0c-0e42-44a4-bd3f-2ccd34e23a27" />
 
 
->>Dependencies
+
+
+>>**Dependencies**
 
 -> Only for windows Enviornment
+
 -> Requires GCC for compilation
 
 
 
 📬 Connect With Me
-🌐 GitHub: @Skyvb29
+🌐 GitHub: **@Skyvb29**
 
 📧 Email: swarityadav29@gmail.com
 
