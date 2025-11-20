@@ -48,7 +48,14 @@ Gas detection, smart environment logger, cloud logging, etc.
 Predicting sensor behavior & calibration for MQ sensors.
 
 <img width="1592" height="821" alt="image" src="https://github.com/user-attachments/assets/60856d40-acbb-4421-a712-314fbbf92668" />
+
 <img width="1586" height="817" alt="image" src="https://github.com/user-attachments/assets/6750fb0c-0e42-44a4-bd3f-2ccd34e23a27" />
+
+
+>>Dependencies
+
+-> Only for windows Enviornment
+-> Requires GCC for compilation
 
 
 
