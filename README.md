@@ -8,9 +8,9 @@ Right now I’m deep into embedded development, system design, and improving my 
 >>**What I’m Working On?**
 
 **Skyvb’s IDE** (My CLI-Based Ligtweight IDE for C++ and Future IOT boards)
-A minimal C++ command-line editor with:
+A minimal C++ command-line mini IDE with:
  ✔ Undo/Redo using stacks
- ✔ File operations (save/load/rename/delete)
+ ✔ File operations (save/load/rename/delete/edit)
  ✔ Multi-line edit mode
  ✔ Color-coded terminal output
  ✔ Modular C++ architecture
