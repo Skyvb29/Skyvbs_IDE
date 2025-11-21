@@ -4,6 +4,7 @@
 #include "file_ops.h"
 #include "colours.h"
 #include "compiler.h"
+#include "listfile.h"
 #include <iostream>
 using namespace std;
 
@@ -28,7 +29,7 @@ void handle_command(
     }
     else if (command == "help")
     {
-        cout << BOLD << GREY << "try--> add, delete, view, save, load, clear, undo, redo, build, run, rename, remove, exit." << RESET << endl;
+        cout << BOLD << GREY << "try--> add, delete, view, , insert, edit, save, load, clear, list, undo, redo, build, run, rename, remove, exit." << RESET << endl;
     }
     else if (command == "undo")
     {
@@ -60,6 +61,17 @@ void handle_command(
         load_function(storage, file_name);
         command_logs.clear();
     }
+    else if (command == "list")
+    {
+        list_files();
+    }
+    else if (command == "edit")
+    {
+        int n;
+        cin >> n;
+        edit_line(storage, n, undoStack, redoStack);
+    }
+
     else if (command == "logs")
     {
         view_logs(command_logs);

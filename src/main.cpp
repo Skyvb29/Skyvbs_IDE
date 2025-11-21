@@ -17,7 +17,7 @@ int main()
 
     cout << endl
          << BOLD << BLUE << "\t\t\t---- SKYVB'S IDE ----" << RESET << endl;
-    cout << YELLOW << "Commands: add, delete [i], view, save, load, clear, undo, redo, build, run, "
+    cout << YELLOW << "Commands: add, delete [i], edit, insert, view, save, list, load, clear, undo, redo, build, run, "
          << "insert [i], logs, rename, remove, help, exit" << RESET << endl
          << "--------------------------------------------------------------" << endl;
 

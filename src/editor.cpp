@@ -101,3 +101,39 @@ void insert_line(vector<string> &st, int i, stack<Action> &undoStack, stack<Acti
     modified = true;
     cout << GREEN << "[+] Line inserted at " << i << RESET << endl;
 }
+
+
+void edit_line(vector<string> &st, int n, stack<Action> &undoStack, stack<Action> &redoStack)
+{
+    if (n < 1 || n > st.size())
+    {
+        cout << RED << "[ERROR] Invalid index." << RESET << endl;
+        return;
+    }
+
+    cin.ignore();
+    string oldLine = st[n - 1];
+    string newLine;
+
+    cout << "Current line: " << oldLine << endl;
+    cout << "New line: ";
+    getline(cin, newLine);
+
+   
+    st[n - 1] = newLine;
+
+    // clear redo stack
+    while (!redoStack.empty())
+        redoStack.pop();
+
+    
+    Action act;
+    act.type = "edit";
+    act.content = oldLine + "\n" + newLine; 
+    act.index = n;
+    undoStack.push(act);
+
+    modified = true;
+
+    cout << GREEN << "[+] Line " << n << " updated." << RESET << endl;
+}

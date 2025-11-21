@@ -10,5 +10,6 @@ using namespace std;
 vector<string> add_line(vector<string> &st, stack<Action> &undoStack, stack<Action> &redoStack);
 vector<string> delete_line(vector<string> &st, stack<Action> &undoStack, stack<Action> &redoStack);
 void insert_line(vector<string> &st, int i, stack<Action> &undoStack, stack<Action> &redoStack);
+void edit_line(vector<string> &st, int n, stack<Action> &undoStack, stack<Action> &redoStack);
 
 #endif
