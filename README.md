@@ -38,8 +38,11 @@ Instead of treating compilation as a single hidden command, the IDE is evolving 
 Example internal flow:
 
 g++ file.cpp -E -o file.i
+
 g++ file.cpp -S -o file.s
+
 g++ file.cpp -c -o file.o
+
 g++ file.o -o main
 
 The goal is to make compilation visible so beginners can understand how source code becomes an executable.
