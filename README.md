@@ -1,4 +1,4 @@
-# Hey, I’m Skyvb 👋
+# Hey, I’m Skyvb 
 
 **B.Tech CSE (2nd Year) | Systems Learner | C++ | Embedded & IoT Exploration**
 
@@ -8,7 +8,7 @@ Right now I am focused on strengthening my fundamentals in **C++, data structure
 
 ---
 
-# 🚀 What I’m Building
+# What I’m Building
 
 ## Skyvb’s IDE
 
@@ -58,7 +58,7 @@ Turn this into a lightweight educational CLI environment for:
 
 ---
 
-# 🧠 Tech Stack & Interests
+# Tech Stack & Interests
 
 ## Languages
 
@@ -74,7 +74,7 @@ Data Structures • Embedded Programming • CLI Tooling • File Handling • B
 
 ---
 
-# 📚 Current Learning Roadmap
+# Current Learning Roadmap
 
 * Advanced C++ (modularization, OOP, templates)
 * Build systems and compiler flow
@@ -85,7 +85,7 @@ Data Structures • Embedded Programming • CLI Tooling • File Handling • B
 
 ---
 
-# 🔬 Highlight Projects
+#  Highlight Projects
 
 ## Skyvb’s IDE
 
@@ -101,21 +101,21 @@ Basic regression models for sensor calibration and behavior prediction.
 
 ---
 
-# ⚙️ Dependencies
+# Dependencies
 
 * Currently designed for Windows environment
 * Requires GCC for compilation
 
 ---
 
-# 🌐 Connect With Me
+# Connect With Me
 
 GitHub: **@Skyvb29**
 Email: **[swarityadav29@gmail.com](mailto:swarityadav29@gmail.com)**
 
 ---
 
-# 💡 Fun Fact
+# Fun Fact
 
 I often prefer building my own tools before using existing ones — not because it is easier, but because it teaches me how systems are actually put together.
 
